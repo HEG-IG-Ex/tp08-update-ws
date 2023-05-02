@@ -5,7 +5,7 @@ import domaine.WindowsStation;
 import domaine.WorkStation;
 import domaine.WorkStationType;
 
-public class WorkStationFactory {
+public abstract class Company {
     public static WorkStation createWorkstation(WorkStationType t, String nom){
         switch(t){
             case WINDOWS:
